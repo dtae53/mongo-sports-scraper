@@ -1,5 +1,8 @@
 # Mongo Sports Scraper
-News scraper app that uses cheerio to scrape a news site, mongodb to save news articles and comments, and express to serve the site and data.
+News scraper app that uses cheerio to scrape a news site, mongodb to save news articles and comments, and express to serve the site and data. 
+
+# Deployed 
+https://mongo-sports-scraper.herokuapp.com/ 
 
 ## Built With
 * [MongoDB]
