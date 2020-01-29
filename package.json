@@ -2,15 +2,25 @@
   "name": "mongo-sports-scraper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.9.0" 
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dtae53/mongo-sports-scraper.git"
   },
-  "author": "",
+  "author": "Davontae Glenn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dtae53/mongo-sports-scraper/issues"
